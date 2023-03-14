@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background: black;
+    border-bottom: 2px solid #44d62c;
+    z-index: 9999;
+}
+
+.logo {
+    color: #44d62c;
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(110, 109, 109);
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    font-size: 16px;
+    padding: 2rem;
+}
+
+a:hover {
+    color: white;
+}
+
+.banner {
+    background-color:rgb(90, 88, 88);
+    padding: 1rem;
+}
+
+.banner p {
+    color: white;
+    font-size: 14px;
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    text-align: center;
+}
+
+/* Ad Divs */
+
+.ad-divs {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.ad-divs h1 {
+    color: white;
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 2px;
+    padding-top: 3rem;
+}
+
+.ad-divs h2 {
+    color: white;
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 1rem;
+}
+
+.razer-15 {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid rgb(44, 44, 44);
+    background-image: url("./galeri/razer-blade-15-ch9-hero-desktop.jpg")
+}
+
+.hero {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid rgb(44, 44, 44);
+    background-position-x: center;
+    background-image: url("./galeri/deathadder-v3-pro-faker-hero.jpg")
+}
+
+.razer-18 {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid rgb(44, 44, 44);
+    background-image: url("./galeri/razer-blade-18-hero-desktop-v2.jpg")
+}
+
+.active {
+    text-align: center;
+    padding: 1rem;
+}
+
+.active a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    font-size: 20px;
+}
+
+.active span {
+    color:#44d62c;
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px !important;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Flex Container */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    height: 100%;
+}
+
+.pro-hero {
+    box-sizing: border-box;
+    width: 50%;
+    height: 80%;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid rgb(44, 44, 44);
+    border-right: 10px solid rgb(44, 44, 44);
+    background-image: url("./galeri/razer-blade-16-usp1-desktop.jpg")
+}
+
+.for-xbox {
+    box-sizing: border-box;
+    width: 50%;
+    height: 80%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid rgb(44, 44, 44);
+    background-image: url("./galeri/razer-for-xbox-hero-desktop-v2.jpg")
+}
+
+.blackwidow {
+    box-sizing: border-box;
+    width: 50%;
+    height: 80%;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid rgb(44, 44, 44);
+    border-right: 10px solid rgb(44, 44, 44);
+    background-image: url("./galeri/razer-blackwidow-v4-pro-hero-1920x700.jpg")
+}
+
+.razer-pink {
+    box-sizing: border-box;
+    width: 50%;
+    height: 80%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid rgb(44, 44, 44);
+    background-image: url("./galeri/nbcf-partnership_1920x600.jpg")
+}
+
+.lambo {
+    box-sizing: border-box;
+    width: 50%;
+    height: 80%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid rgb(44, 44, 44);
+    border-right: 10px solid rgb(44, 44, 44);
+    background-image: url("./galeri/razer-enki-pro-automobili-lamborghini-hero-desktop.jpg")
+}
+
+.razer-edge {
+    box-sizing: border-box;
+    width: 50%;
+    height: 80%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid rgb(44, 44, 44);
+    background-image: url("./galeri/razer-edge-hero.jpg")
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: rgb(19, 19, 19);
+}
+
+.footer-menu {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.footer-menu div {padding-left: 1rem; padding-top: 1rem;}
+
+.footer-menu h5 {color: white; font-family: 'Roboto', 'Helvetica', sans-serif;}
+
+.footer-menu p {color: grey; font-family: 'Roboto', 'Helvetica', sans-serif; line-height: 1rem; font-size: 12px;}
+
+.footer-icons {
+    padding: 1rem;
+    margin-left: auto;
+    color:#44d62c; 
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
+#foot-ul li a {color:#44d62c; padding: 15px;}
+
+/* Media */
+
+@media screen and (max-width: 1050px) {
+    .navbar {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    ul li a {
+        padding: 5px;
+    }
+
+    .footer {
+        width: fit-content;
+        padding: none;
+    }
+}
+
+@media screen and (max-width: 725px) {
+
+    .ad-divs h1 {font-size: 30px;}
+
+    .ad-divs h2 {font-size: 20px;}
+
+    .flex-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    ul li a {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .pro-hero {
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        border-right: none;
+    }
+    
+    .for-xbox {
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .blackwidow {
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        border-right: none;
+    }
+    
+    .razer-pink {
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .lambo {
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        border-right: none;
+    }
+    
+    .razer-edge {
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 655px) {
+    footer {
+        overflow: scroll;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-menu p {
+        display: flex;
+        flex-direction: column;
+    }
+}
